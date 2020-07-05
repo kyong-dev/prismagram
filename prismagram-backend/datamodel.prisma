@@ -1,0 +1,74 @@
+type User {
+  id: ID! @id
+  avatar: String @default(value: "data:image/jpeg;base64,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")
+  username: String! @unique
+  email: String! @unique
+  firstName: String @default(value: "")
+  lastName: String
+  bio: String
+  posts: [Post!]! @relation(name: "PostsOfUser", onDelete: CASCADE)
+  likes: [Like!]! @relation(name: "LikesOfUser", onDelete: CASCADE)
+  comments: [Comment!]! @relation(name: "CommentsOfUser", onDelete: CASCADE)
+  followers: [User!]! @relation(name: "FollowRelation")
+  followings: [User!]! @relation(name: "FollowRelation")
+  rooms: [Room!]!
+  loginSecret: String
+  notificationToken: String
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+}
+
+type Post {
+  id: ID! @id
+  location: String
+  caption: String!
+  user: User @relation(name: "PostsOfUser")
+  files: [File!]! @relation(name: "FilesOfPost", onDelete: CASCADE)
+  likes: [Like!]! @relation(name: "LikeOfPost", onDelete: CASCADE)
+  comments: [Comment!]! @relation(name: "CommentOfPost", onDelete: CASCADE)
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+}
+
+type Like {
+  id: ID! @id
+  user: User @relation(name: "LikesOfUser")
+  post: Post @relation(name: "LikeOfPost")
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+}
+
+type Comment {
+  id: ID! @id
+  text: String!
+  user: User @relation(name: "CommentsOfUser")
+  post: Post @relation(name: "CommentOfPost")
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+}
+
+type File {
+  id: ID! @id
+  url: String!
+  post: Post @relation(name: "FilesOfPost")
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+}
+
+type Room {
+  id: ID! @id
+  participants: [User!]!
+  messages: [Message!]!
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+}
+
+type Message {
+  id: ID! @id
+  text: String!
+  from: User! @relation(name: "From")
+  to: User!  @relation(name: "To")
+  room: Room!
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+}

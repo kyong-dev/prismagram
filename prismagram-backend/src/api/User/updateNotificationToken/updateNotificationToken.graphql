@@ -1,0 +1,5 @@
+type Mutation {
+    updateNotificationToken(
+        notificationToken: String
+    ): User!
+}
