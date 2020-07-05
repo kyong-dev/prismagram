@@ -37,20 +37,20 @@ Deployment Environment: Heroku (Back-End), Netlify (Front-End), App (Not Deploye
 # Product
 ### • Android
 <p float="middle">
-    <img src="prismagram-app/readme/login_profile_android.gif" width="150"/>
-    <img src="prismagram-app/readme/follow_like_android.gif" width="150"/>
-    <img src="prismagram-app/readme/upload_notification_android.gif" width="150"/>
+    <img src="prismagram-app/readme/login_profile_android.gif" width="200"/>
+    <img src="prismagram-app/readme/follow_like_android.gif" width="200"/>
+    <img src="prismagram-app/readme/upload_notification_android.gif" width="200"/>
 </p>
 
 ### • IOS
 <p float="middle">
-    <img src="prismagram-app/readme/login_ios.gif" width="150"/>
-    <img src="prismagram-app/readme/search_profile_ios.gif" width="150"/>
-    <img src="prismagram-app/readme/photo_ios.gif" width="150"/>
+    <img src="prismagram-app/readme/login_ios.gif" width="200"/>
+    <img src="prismagram-app/readme/search_profile_ios.gif" width="200"/>
+    <img src="prismagram-app/readme/photo_ios.gif" width="200"/>
 </p>
 
 #### Real-time Chat
-<img src="prismagram-app/readme/chat_android_ios.gif" width="450"/>
+<img src="prismagram-app/readme/chat_android_ios.gif" width="620"/>
 
 ### • Web
 <img src="prismagram-frontend/readme/login_web.gif" alt="Product demo"/>
